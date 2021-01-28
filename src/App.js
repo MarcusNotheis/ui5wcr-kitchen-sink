@@ -239,7 +239,9 @@ function App() {
           <NotificationListItem
             heading="New Order"
             actions={<NotificationAction text="OK" />}
-          ></NotificationListItem>
+          >
+            NotificationListItem
+          </NotificationListItem>
         </NotificationListGroupItem>
       </List>
 
